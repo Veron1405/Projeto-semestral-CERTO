@@ -1,0 +1,497 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 330px;
+
+}
+.img {
+    position: absolute;
+    width: 600px;
+    z-index: 0;
+    left: 860px;
+    top: 2px;
+}
+
+@font-face {
+    font-family: 'Alegreya-bold';
+    src: url(Fontes/AlegreyaSC-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Alegreya-medium';
+    src: url(Fontes/AlegreyaSC-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url(Fontes/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url(Fontes/Roboto-Medium.ttf);
+}
+.descricao {
+    position: absolute;
+    font: 500 100px 'Alegreya-medium', sans-serif;
+    color: #000000;
+    top: 30px;
+    left: 95px;
+}
+
+.descricao2 {
+    position: absolute;
+    font: 400 80px 'Alegreya-medium', sans-serif;
+    color: #000000;
+    top: 140px;
+    left: 125px;
+}
+.e1 {
+    font: 700 100px 'Alegreya-medium', sans-serif;
+}
+
+.box {
+    background-color: #000000;
+    width: 100%;
+    height: 170px;
+    color: #000000;
+    margin-top: -100px;
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 470px;
+}
+
+.menu {
+    color: #ffffff;
+    font: 600 50px 'Alegreya-medium', sans-serif;
+}
+
+.icone7 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 354px;
+    top: 66px;
+
+}
+
+.icone8 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 730px;
+    top: 65px;
+}
+
+.icone9 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1005px;
+    top: 65px;
+}
+
+.icone10 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1400px;
+    top: 66px;
+}
+
+.camisetas {
+    position: absolute;
+    width: 423px;
+    height: 119px;
+    left: 74px;
+    top: 570px;
+
+    color: #000000;
+    font: 700 60px 'Alegreya-medium', sans-serif;
+}
+
+.camisa1 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 208.1px;
+    top: 670px;
+
+    background: #000000;
+    border-radius: 456.392px;
+}
+
+.camisa2 {
+    position: absolute;
+    width: 880px;
+    height: 600px;
+    left: 670px;
+    top: 670px;
+
+    background: #000000;
+    border-radius: 456.392px;
+}
+
+.camisa3 {
+    position: absolute;
+    width: 958px;
+    height: 658px;
+    left: -56px;
+    top: 1210px;
+
+    background: url(.png);
+}
+
+.camisa4 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 900px;
+    top: 1236px;
+
+    background: #000000;
+    border-radius: 456.392px;
+}
+
+.camisa5 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 208.1px;
+    top: 1802px;
+
+    background: #000000;
+    border-radius: 456.392px;
+}
+
+.camisa6 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 900px;
+    top: 1802px;
+
+    background: #000000;
+    border-radius: 456.392px;
+}
+
+.box8 {
+    position: absolute;
+    width: 912.78px;
+    height: 9.13px;
+    left: 330px;
+    top: 2320px;
+
+    background: #000000;
+}
+
+.blusas {
+    position: absolute;
+    width: 289px;
+    height: 119px;
+    left: 74px;
+    top: 2370px;
+
+    color: #000000;
+    font: 700 60px 'Alegreya-medium', sans-serif;
+}
+
+.camisa13 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 208.1px;
+    top: 2470px;
+
+}
+
+.camisa16 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 900px;
+    top: 2470px;
+}
+
+.camisa7 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 208.1px;
+    top: 3076px;
+
+}
+
+.camisa8 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 900px;
+    top: 3076px;
+}
+
+.camisa9 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 208.1px;
+    top: 3682px;
+}
+
+.camisa10 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 900px;
+    top: 3682px;
+}
+
+.box9 {
+    position: absolute;
+    width: 912.78px;
+    height: 9.13px;
+    left: 330px;
+    top: 4200px;
+
+    background: #000000;
+}
+
+.tocas {
+    position: absolute;
+    width: 289px;
+    height: 119px;
+    left: 74px;
+    top: 4250px;
+
+    color: #000000;
+    font: 700 60px 'Alegreya-medium', sans-serif;
+}
+
+.camisa14 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 900px;
+    top: 4350px;
+}
+
+.camisa15 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 208.1px;
+    top: 4350px;
+}
+
+.box10 {
+    position: absolute;
+    width: 912.78px;
+    height: 9.13px;
+    left: 330px;
+    top: 4868px;
+
+    background: #000000;
+}
+
+.bones {
+    position: absolute;
+    width: 289px;
+    height: 119px;
+    left: 74px;
+    top: 4918px;
+
+    color: #000000;
+    font: 700 60px 'Alegreya-medium', sans-serif;
+}
+
+.camisa11 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 194px;
+    top: 5018px;
+}
+
+.camisa12 {
+    position: absolute;
+    width: 456.39px;
+    height: 456.39px;
+    left: 900px;
+    top: 5018px;
+}
+
+.box11 {
+    position: absolute;
+    width: 912.78px;
+    height: 9.13px;
+    left: 330px;
+    top: 5536px;
+
+    background: #000000;
+}
+
+.direito {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 800px;
+    top: 5650px;
+
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #000000;
+    font: 300 22px 'Alegreya-medium', sans-serif;
+}
+
+.contato {
+    position: absolute;
+    width: 586px;
+    height: 30px;
+    left: 936px;
+    top: 5700px;
+
+    color: #000000;
+    font: 200 20px 'Alegreya-medium', sans-serif;
+}
+
+.ajuda {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    left: 1064px;
+    top: 5700px;
+
+    color: #000000;
+    font: 200 20px 'Alegreya-medium', sans-serif;
+}
+
+.sobre {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    left: 1174px;
+    top: 5700px;
+
+    color: #000000;
+    font: 200 20px 'Alegreya-medium', sans-serif;
+}
+
+.icone1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 316px;
+    top: 5700px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.icone2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 258px;
+    top: 5700px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.icone3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 200px;
+    top: 5700px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.icone4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 142px;
+    top: 5700px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.icone5 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 374px;
+    top: 5700px;
+    background-color: #000000;
+    border-radius: 15px;
+
+}
+
+.icone6 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 431px;
+    top: 5700px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.icone6:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.icone5:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.icone4:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.icone3:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.icone2:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.icone1:hover {
+    width: 45px;
+    height: 45px;
+}

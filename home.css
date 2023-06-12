@@ -1,0 +1,788 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 330px;
+
+}
+
+.img {
+    position: absolute;
+    width: 600px;
+    z-index: 0;
+    left: 900px;
+}
+
+@font-face {
+    font-family: 'Alegreya-bold';
+    src: url(Fontes/AlegreyaSC-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Alegreya-medium';
+    src: url(Fontes/AlegreyaSC-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url(Fontes/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url(Fontes/Roboto-Medium.ttf);
+}
+.descricao {
+    position: absolute;
+    font: 500 100px 'Alegreya-medium', sans-serif;
+    color: #000000;
+    top: 30px;
+    left: 100px;
+}
+
+.descricao2 {
+    position: absolute;
+    font: 400 80px 'Alegreya-medium', sans-serif;
+    color: #000000;
+    top: 140px;
+    left: 140px;
+}
+.e1 {
+    font: 700 100px 'Alegreya-medium', sans-serif;
+}
+
+.box {
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    height: 170px;
+    color: #ffffff;
+    margin-top: -100px;
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 400px;
+}
+
+.menu {
+    color: #ffffff;
+    font: 600 50px 'Alegreya-medium', sans-serif;
+    top: 52px
+}
+.biografia {
+    position: absolute;
+    width: 232px;
+    height: 72px;
+    left: 50px;
+    top: 522px;
+
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    font: 700 60px 'Alegreya-medium', sans-serif;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.biografia2 {
+    position: absolute;
+    width: 1328px;
+    height: 88px;
+    left: 53px;
+    top: 597px;
+
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #000000;
+    font: 400 30px 'Alegreya-medium', sans-serif;
+    text-align: justify;
+}
+
+.box2 {
+    position: absolute;
+    width: 1384px;
+    height: 0px;
+    left: 28px;
+    top: 689.51px;
+
+    border: 1.00915px solid #000000;
+}
+
+.texto2 {
+    position: absolute;
+    width: 1361px;
+    height: 561px;
+    left: 53px;
+    top: 711px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.biografia3 {
+    position: absolute;
+    width: 718px;
+    height: 82px;
+    left: 50px;
+    top: 1215px;
+
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    /* identical to box height */
+
+
+    color: #000000;
+    font: 700 60px 'Alegreya-medium', sans-serif;
+    text-align: justify;
+}
+
+.box3 {
+    position: absolute;
+    width: 1384px;
+    height: 0px;
+    left: 28px;
+    top: 1290px;
+
+    border: 1.00915px solid #000000;
+    transform: rotate(-0.04deg);
+}
+
+.texto4 {
+    position: absolute;
+    width: 979px;
+    height: 44px;
+    left: 50px;
+    top: 1300px;
+
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #000000;
+    font: 400 30px 'Alegreya-medium', sans-serif;
+}
+
+.biografia4 {
+    position: absolute;
+    width: 838px;
+    height: 135px;
+    left: 50px;
+    top: 1350px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+}
+
+.biografia5 {
+    position: absolute;
+    width: 883px;
+    height: 68px;
+    left: 50px;
+    top: 1490px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+
+}
+
+.img2 {
+    position: absolute;
+    width: 586px;
+    height: 345px;
+    left: 818px;
+    top: 1325px;
+
+    background: url(.png);
+}
+
+.biografia6 {
+    position: absolute;
+    width: 502px;
+    height: 82px;
+    left: 50px;
+    top: 1600px;
+
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+    /* identical to box height */
+
+    color: #000000;
+    font: 700 60px 'Alegreya-medium', sans-serif;
+}
+
+.box4 {
+    position: absolute;
+    width: 1384px;
+    height: 0px;
+    left: 28px;
+    top: 1670px;
+
+    border: 1.00915px solid #000000;
+    transform: rotate(-0.04deg);
+}
+
+.albums {
+    position: absolute;
+    width: 1364px;
+    height: 91px;
+    left: 50px;
+    top: 1675px;
+
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #000000;
+    font: 400 30px 'Alegreya-medium', sans-serif;
+}
+
+.img3 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 130px;
+    top: 1800px;
+
+    background: url(image.png);
+}
+
+.img4 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 850px;
+    top: 1800px;
+
+    background: url(image.png);
+}
+
+.img5 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 130px;
+    top: 2350px;
+
+    background: url(image.png);
+}
+
+.img6 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 850px;
+    top: 2350px;
+
+    background: url(image.png);
+}
+
+.curiosidades {
+    position: absolute;
+    width: 892px;
+    height: 76px;
+    left: 39px;
+    top: 2870px;
+
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+
+    color: #000000;
+    font: 700 60px 'Alegreya-medium', sans-serif;
+}
+
+.box5 {
+    position: absolute;
+    width: 1384px;
+    height: 0px;
+    left: 28px;
+    top: 2950px;
+
+    border: 1.00915px solid #000000;
+    transform: rotate(0.00deg);
+}
+
+.box6 {
+    position: absolute;
+    width: 0px;
+    height: 1050px;
+    left: 716px;
+    top: 3000px;
+
+    border: 1px solid #000000;
+    /* ransform: rotate(90deg); */
+}
+
+.curiosidades2 {
+    position: absolute;
+    width: 643px;
+    height: 156px;
+    left: 35px;
+    top: 3000px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades3 {
+    position: absolute;
+    width: 665px;
+    height: 102px;
+    left: 35px;
+    top: 3200px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades4 {
+    position: absolute;
+    width: 636px;
+    height: 101px;
+    left: 35px;
+    top: 3330px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades5 {
+    position: absolute;
+    width: 653px;
+    height: 149px;
+    left: 35px;
+    top: 3460px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades6 {
+    position: absolute;
+    width: 653px;
+    height: 135px;
+    left: 35px;
+    top: 3590px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades7 {
+    position: absolute;
+    width: 653px;
+    height: 114px;
+    left: 35px;
+    top: 3750px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades8 {
+    position: absolute;
+    width: 621px;
+    height: 136px;
+    left: 35px;
+    top: 3880px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades9 {
+    position: absolute;
+    width: 625px;
+    height: 123px;
+    left: 746px;
+    top: 3000px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+
+}
+
+.curiosidades10 {
+    position: absolute;
+    width: 588px;
+    height: 121px;
+    left: 746px;
+    top: 3200px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades11 {
+    position: absolute;
+    width: 625px;
+    height: 118px;
+    left: 746px;
+    top: 3330px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades12 {
+    position: absolute;
+    width: 613px;
+    height: 95px;
+    left: 746px;
+    top: 3460px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades13 {
+    position: absolute;
+    width: 628px;
+    height: 123px;
+    left: 746px;
+    top: 3590px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades14 {
+    position: absolute;
+    width: 618px;
+    height: 107px;
+    left: 746px;
+    top: 3750px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+.curiosidades15 {
+    position: absolute;
+    width: 616px;
+    height: 121px;
+    left: 746px;
+    top: 3880px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 34px;
+
+    color: #000000;
+    text-align: justify;
+}
+
+/* .box7 {
+    position: absolute;
+    width: 1050px;
+    height: 0px;
+    left: 216px;
+    top: 4080px;
+
+    border: 1px solid #FFFFFF;
+} */
+.box7 {
+    position: absolute;
+    width: 1384px;
+    height: 0px;
+    left: 28px;
+    top: 4080px;
+
+    border: 1.00915px solid #000000;
+    transform: rotate(-0.04deg);
+}
+
+.direito {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 800px;
+    top: 4110px;
+
+    font-family: 'Alegreya SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #000000;
+    font: 300 22px 'Alegreya-medium', sans-serif;
+}
+
+.contato {
+    position: absolute;
+    width: 586px;
+    height: 30px;
+    left: 936px;
+    top: 4160px;
+
+    color: #000000;
+    font: 200 20px 'Alegreya-medium', sans-serif;
+}
+
+.ajuda {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    left: 1064px;
+    top: 4160px;
+
+    color: #000000;
+    font: 200 20px 'Alegreya-medium', sans-serif;
+}
+
+.sobre {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    left: 1174px;
+    top: 4160px;
+
+    color: #000000;
+    font: 200 20px 'Alegreya-medium', sans-serif;
+}
+
+.icone1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 316px;
+    top: 4160px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.icone2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 258px;
+    top: 4160px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+.icone3 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 200px;
+    top: 4160px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+.icone4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 142px;
+    top: 4160px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+.icone5 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 374px;
+    top: 4160px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+.icone6 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 431px;
+    top: 4160px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+.icone7 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 362px;
+    top: 66px;
+}
+.icone8 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 750px;
+    top: 65px;
+}
+.icone9 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1000px;
+    top: 64px;
+}
+.icone10 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1400px;
+    top: 66px;
+}
+.icone6:hover {
+    width: 45px;
+    height: 45px;
+}
+.icone5:hover {
+    width: 45px;
+    height: 45px;
+}
+.icone4:hover {
+    width: 45px;
+    height: 45px;
+}
+.icone3:hover {
+    width: 45px;
+    height: 45px;
+}
+.icone2:hover {
+    width: 45px;
+    height: 45px;
+}
+.icone1:hover {
+    width: 45px;
+    height: 45px;
+}
